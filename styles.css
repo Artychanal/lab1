@@ -27,7 +27,7 @@
 }
 
 .div1 .content {
-    width: 70%;
+    width: 30%;
 }
 
 .div1 .menu {
@@ -82,8 +82,23 @@
 }
 
 .div7 .content {
-    width: 30%;
-    text-align: right;
+    display: flex;
+    justify-content: space-around; /* Размещает иконки равномерно */
+    align-items: center;
+}
+
+.div7 .content a {
+    margin: 0 10px; /* Отступы между иконками */
+}
+
+.div7 .content img {
+    width: 30px; /* Ширина иконок */
+    height: 30px; /* Высота иконок */
+    transition: transform 0.3s ease; /* Анимация при наведении */
+}
+
+.div7 .content img:hover {
+    transform: scale(1.2); /* Увеличение иконки при наведении */
 }
 
 .div7 .slogan {
