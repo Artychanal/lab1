@@ -38,6 +38,7 @@
     list-style: none;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 .div1 .menu ul li {
     padding: 5px;
@@ -51,6 +52,7 @@
 .div2 {
     grid-area: 2 / 1 / 4 / 2;
     background: #eaf2dd;
+    text-align: right;
 }
 .div3 {
     grid-area: 4 / 1 / 5 / 3;
@@ -59,14 +61,17 @@
 .div4 {
     grid-area: 2 / 2 / 4 / 3;
     background: #fff;
+    text-align: right;
 }
 .div5 {
     grid-area: 2 / 3 / 5 / 4;
     background: #eaf2dd;
+    text-align: right;
 }
 .div6 {
     grid-area: 2 / 4 / 5 / 5;
     background: #fce9da;
+    text-align: right;
 }
 .div7 {
     grid-area: 5 / 1 / 6 / 5;
