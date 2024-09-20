@@ -83,22 +83,22 @@
 
 .div7 .content {
     display: flex;
-    justify-content: space-around; /* Размещает иконки равномерно */
+    justify-content: space-around; 
     align-items: center;
 }
 
 .div7 .content a {
-    margin: 0 10px; /* Отступы между иконками */
+    margin: 0 10px;
 }
 
 .div7 .content img {
-    width: 30px; /* Ширина иконок */
-    height: 30px; /* Высота иконок */
-    transition: transform 0.3s ease; /* Анимация при наведении */
+    width: 30px;
+    height: 30px; 
+    transition: transform 0.3s ease;
 }
 
 .div7 .content img:hover {
-    transform: scale(1.2); /* Увеличение иконки при наведении */
+    transform: scale(1.2); 
 }
 
 .div7 .slogan {
